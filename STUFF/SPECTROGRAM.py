@@ -11,7 +11,7 @@ class AudioVisualizerGUI:
         self.master = master
         self.master.title("Audio Visualizer")
 
-        # Create the canvas to display the spectrogram
+        # Create canvas
         self.figure = plt.Figure(figsize=(8, 5), dpi=100)
         self.canvas = FigureCanvasTkAgg(self.figure, master=self.master)
         self.canvas.get_tk_widget().pack(side=tk.TOP, fill=tk.BOTH, expand=True)

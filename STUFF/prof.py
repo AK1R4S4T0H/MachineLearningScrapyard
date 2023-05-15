@@ -1,4 +1,5 @@
-
+# was trying to make something cool, was going to call it 
+# PY Professor
 def Professor(dataset_path, num_epochs=15, batch_size=32):
   from keras.backend import categorical_crossentropy
   import tensorflow as tf
